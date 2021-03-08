@@ -49,6 +49,15 @@
 
     </androidx.cardview.widget.CardView>
 
+    <View
+        android:id="@+id/bgArc"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_arc"
+        app:layout_constraintBottom_toTopOf="@id/bgSpacer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Space
         android:id="@+id/bgSpacer"
         android:layout_width="0dp"
